@@ -1,0 +1,21 @@
+    <Button
+        android:id="@+id/boton_next"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="right|bottom"
+        android:text=""
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/plus"
+        />
+
+    <Button
+        android:id="@+id/boton_next2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="left|bottom"
+        android:text=""
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/plus"
+        />
