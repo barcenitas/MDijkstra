@@ -1,0 +1,26 @@
+tvBoton= (TextView) findViewById(R.id.tvBoton);
+tvBoton.setOnClickListener(new View.OnClickListener(){
+@Override
+public void onClick(View view){
+Intent i = new Intent(this, Main2Activity, class);
+startActivity(i);
+
+}
+});
+
+
+----------------
+
+<activity android:name=".MainActivity"/>
+
+
+
+
+-----------------------
+
+
+
+Button siguiente;
+
+
+siguiente = (Button)  findViewById(R.id.siguiente);
