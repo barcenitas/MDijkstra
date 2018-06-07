@@ -101,16 +101,33 @@ Cuando el robot recibe la bola y debe responder, realiza una combinación de los
 \\\textbf{Conducir un coche}\\
 El nuevo Mercedes-Benz Clase A 2018 tiene un asistente de voz que promete aprender del usuario gracias a la "inteligencia artificial", que tiene un panel de instrumentos cuyos gráficos ha diseñado NVIDIA y que se puede abrir con el smartphone. Es más, cualquiera con tu permiso puede abrir el coche con un smartphone.
 \\\textbf{Comprar comestibles para una semana en la Web}
-\\La inteligencia artificial ya es parte de los procesos de compras, entender tempranamente sus virtudes y limitantes, permitirá a las organizaciones obtener el mayor provecho de ella y adaptar las competencias de su personal a la nueva forma de trabajar.
- \\\textbf{Jugar una partida de damas chinas}
- \\Se dice que el juego de Damas chinas es un juego de mesa resuelto, es decir, que ya no hay forma de ganarle a una Inteligencia Arificial en este juego, lo mas a lo que podemos llegar es a un empate.
- \\\textbf{descubrir y demostrar nuevos teoremas matematicos}
+\\La inteligencia artificial ya es parte de los procesos de compras, entender tempranamente sus virtudes y limitantes, permitirá a las organizaciones obtener el mayor provecho de ella y adaptar las competencias de su personal a la nueva forma de trabajar.\\\textbf{Jugar una partida de damas chinas} \\Se dice que el juego de Damas chinas es un juego de mesa resuelto, es decir, que ya no hay forma de ganarle a una Inteligencia Arificial en este juego, lo mas a lo que podemos llegar es a un empate. \\\textbf{descubrir y demostrar nuevos teoremas matematicos}
 \subsection*{¿Qué no puede hacer la IA hoy en día?}
-\textbf{Comprar comestibles para una semana en el mercado}\\
-no existen sensores para determinar la calidad y tipo de producto se estimula que en 25 años se pueda realizar.
-\\\textbf{Escribir intencionalmente una historia divertida}\\Esta tarea es casi imposible pues una maquina no tiene la capacidad de crear nuevas ideas ni tiene una proyeccion del tiempo.
-\\\textbf{Ofrecer asesoria legal competente en un area determinada}\\Un computador no tiene la capacidad de razonar
-\\\textbf{Traducir ingles hablado al sueco hablado en tiempo real}\\El grado de dificultad es bastante alto pues previamente se deberia tener un conocimiento general del tema a tratar y ademas diferencie la pronunciacion y el significado de las palabras.
-\\\textbf{Realizar una operacion de cirugia completa}\\Hoy en dia son solamente una ayuda pues se debe manejar una perfeccion en un area tan sensible como la vida humana se considera realizable en unos 40 años
+\textbf{Comprar comestibles para una semana en el mercado}\\no existen sensores para determinar la calidad y tipo de producto se estimula que en 25 años se pueda realizar.\\\textbf{Escribir intencionalmente una historia divertida}\\Esta tarea es casi imposible pues una maquina no tiene la capacidad de crear nuevas ideas ni tiene una proyeccion del tiempo.\\\textbf{Ofrecer asesoria legal competente en un area determinada}\\Un computador no tiene la capacidad de razonar\\\textbf{Traducir ingles hablado al sueco hablado en tiempo real}\\El grado de dificultad es bastante alto pues previamente se deberia tener un conocimiento general del tema a tratar y ademas diferencie la pronunciacion y el significado de las palabras.\\\textbf{Realizar una operacion de cirugia completa}\\Hoy en dia son solamente una ayuda pues se debe manejar una perfeccion en un area tan sensible como la vida humana se considera realizable en unos 40 años
+\section{Agentes inteligentes}
+\subsection*{Agentes y entorno} Un agente es cualquier cosa capaz de percibir su medioambiente con la ayuda de sensores y actuar en ese medio utilizando actuadores. Un agente robot recibe pulsaciones del teclado, archivos de información y paquetes vía red a modo de entradas sensoriales y actúa sobre el medio con mensajes en el monitor, escribiendo ficheros y enviando paquetes por la red. Se trabajará con la hipótesis general de que cada agente puede percibir sus propias acciones.La percepcion indica las entradas que puede tener un agente en cualquier instante.
+\subsection*{Buen comportamiento: El concepto de racionalidad}
+Un agente racional es aquel que hace lo correcto, se puede decir que lo correcto es aquello que permite al agente obtener un resultado mejor. Por tanto, se necesita determinar una forma de medir el éxito. Las medidas de rendimiento incluyen los criterios que determinan el éxito en el comportamiento del agente. Cuando se sitúa un agente en un medio, éste genera una secuencia de acciones de acuerdo con las percepciones que recibe. Esta secuencia de acciones hace que su hábitat pase por una secuencia de estados. Si la secuencia es la deseada, entonces el agente habrá actuado correctamente.\\\\ La racionalidad en un momento determinado depende de cuatro factores:\\• La medida de rendimiento que define el criterio de éxito.\\• El conocimiento del medio en el que habita acumulado por el agente.\\• Las acciones que el agente puede llevar a cabo.\\• La secuencia de percepciones del agente hasta este momento.\\\\En cada posible secuencia de percepciones, un agente racional deberá emprender aquella acción que supuestamente maximice su medida de rendimiento, basándose en las evidencias aportadas por la secuencia de percepciones y en el conocimiento que el agente
+mantiene almacenado.
+\subsection*{Omnisciencia, aprendizaje y autonomía}
+Un agente omnisciente conoce el resultado de su acción y actúa de acuerdo con él. El agente racional no sólo recopila información, sino que aprende lo máximo posible de lo que está percibiendo. La configuración inicial del agente puede reflejar un conocimiento preliminar del entorno, pero a medida que el agente adquiere experiencia éste puede modificarse y aumentar.\\Los agentes con éxito dividen las tareas de calcular la función del agente en tres períodos diferentes: cuando se está diseñando el agente, y están los diseñadores encargados de realizar algunos de estos cálculos; cuando está pensando en la siguiente operación, el agente realiza más cálculos; y cuando está aprendiendo de la experiencia, el agente lleva a cabo más cálculos para decidir cómo modificar su forma de comportarse.
+\\Se dice que un agente carece de autonomía cuando se apoya más en el conocimiento inicial que le proporciona su diseñador que en sus propias percepciones.\\Un agente racional debe ser autónomo, debe saber aprender a determinar cómo tiene que compensar el conocimiento incompleto o parcial inicial.
+\subsubsection*{Racionalidad vs omnisciencia}
+\subsubsection*{Racionalidad vs perfección}
+La racionalidad maximiza el rendimiento esperado, mientras la perfección maximiza el resultado real. Es imposible diseñar un agente que siempre lleve a cabo, de forma sucesiva, las mejores acciones después de un acontecimiento.
+\subsubsection*{Dependencia de conocimiento previo: Falta de autonomía}
+\subsubsection*{Entorno de tareas}
+\subsection*{Especificación del entorno de tareas}
+\subsubsection*{Rendimiento}
+\subsubsection*{Entorno}
+\subsubsection*{Actuadores}
+\subsubsection*{Sensores}
+\subsection*{Propiedades del entorno de tareas}
+
+
+
+
+
+
 \end{document}
 %Á á, É é, Í í,Ó ó,Ú ú,Ü ü,Ñ ñ, ¿, ¡ ``
