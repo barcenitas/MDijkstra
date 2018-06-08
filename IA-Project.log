@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.27)  1 JUN 2018 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.27)  7 JUN 2018 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -588,18 +588,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
-[14] [15] (./IA-Project.aux
+[14]
+Overfull \hbox (6.37015pt too wide) in paragraph at lines 123--124
+[]\OT1/cmr/m/n/12 Para de-fi-nir el en-torno de ta-reas de usa el acr^^Soni-mo\
+OT1/cmr/bx/n/12 REAS \OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 R\OT1/cmr/m/n/12 endimie
+nto, \OT1/cmr/bx/n/12 E\OT1/cmr/m/n/12 ntorno,
+ []
+
+[15] [16] [17] [18] [19]
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+[20] [21] (./IA-Project.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 3612 strings out of 493029
- 45821 string characters out of 6136234
+ 3613 strings out of 493029
+ 45829 string characters out of 6136234
  122775 words of memory out of 5000000
- 7087 multiletter control sequences out of 15000+600000
+ 7088 multiletter control sequences out of 15000+600000
  9731 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,7n,30p,2261b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,7n,30p,2991b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
@@ -607,10 +619,10 @@ xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on IA-Project.pdf (16 pages, 128234 bytes).
+Output written on IA-Project.pdf (22 pages, 143485 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
