@@ -1,0 +1,11 @@
+mientras siga en la misma  linea llamar a la funcion 
+
+if origen && destinoInterseccionTemporal
+mismaRuta=posicionTemporal
+    while mismaRuta==true
+         TiempoAcumulado=TiempoAcumulado+TiempoAcumuladoPorIntervaloLinea('RutaX');
+    end
+else if
+
+
+

@@ -1,8 +1,8 @@
 Nodos pertenecientes a la Ruta 1:
 
-g = Obervatorio
-Cpu = Tacubaya
-Io= Balderas
+g = 'OBSERVATORIO'
+Cpu = 'TACUBAYA'
+Io= 'BALDERAS'
 en = Salto del agua
 Rm = Pino Suárez
 lII=Candelaria

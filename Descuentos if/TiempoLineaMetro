@@ -1,0 +1,40 @@
+fuction TiempoIntervloAcumulado=TiempoAcumuladoPorIntervaloLinea('RutaX')
+
+switch ruta
+
+case 'Ruta 1'
+ TiempoIntervaloLinea1('cadena')
+case 'Ruta 2'
+ TiempoIntervaloLinea2('cadena')
+
+case 'Ruta 3'
+ TiempoIntervaloLinea3('cadena')
+
+case 'Ruta 4'
+ TiempoIntervaloLinea4('cadena')
+
+case 'Ruta 5'
+ TiempoIntervaloLinea5('cadena')
+
+case 'Ruta 6'
+ TiempoIntervaloLinea6('cadena')
+
+case 'Ruta 7'
+ TiempoIntervaloLinea7('cadena')
+
+case 'Ruta 8'
+ TiempoIntervaloLinea8('cadena')
+
+case 'Ruta 9'
+ TiempoIntervaloLinea9('cadena')
+
+case 'Ruta A'
+ TiempoIntervaloLineaA('cadena')
+
+case 'Ruta B'
+ TiempoIntervaloLineaB('cadena')
+
+case 'Ruta 12'
+ TiempoIntervaloLinea12('cadena')
+
+end

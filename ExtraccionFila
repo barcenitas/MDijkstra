@@ -1,0 +1,49 @@
+A = [ 2    5    3
+        4    -8   1
+        5    2    9]
+
+/////
+
+function fila=ExtraccionFila()
+
+fila_A=Matriz(1,:);
+fila_Ba=Matriz(2,:);
+fila_Cpu=Matriz(3,:);
+fila_D=Matriz(4,:);
+fila_DU=Matriz(5,:);
+fila_Ev=Matriz(6,:);
+fila_F=Matriz(7,:);
+fila_GZ=Matriz(8,:);
+fila_Ht=Matriz(9,:);
+fila_Io=Matriz(10,:);
+fila_JT=Matriz(11,:);
+fila_KRR=Matriz(12,:);
+fila_LDD=Matriz(13,:);
+fila_My=Matriz(14,:);
+fila_N=Matriz(15,:);
+fila_O=Matriz(16,:);
+fila_PY=Matriz(17,:);
+fila_Qds=Matriz(18,:);
+fila_Rm=Matriz(19,:);
+fila_f=Matriz(20,:);
+fila_V=Matriz(21,:);
+fila_W=Matriz(22,:);
+fila_xb=Matriz(23,:);
+fila_a=Matriz(24,:);
+fila_cGG=Matriz(25,:);
+fila_en=Matriz(26,:);
+fila_gQQ=Matriz(27,:);
+fila_h=Matriz(28,:);
+fila_ijqAA=Matriz(29,:);
+fila_Koo=Matriz(30,:);
+fila_lII=Matriz(31,:);
+fila_wBBNN=Matriz(32,:);
+fila_CCKK=Matriz(33,:);
+fila_xEE=Matriz(34,:);
+fila_TFF=Matriz(35,:);
+fila_VrHH=Matriz(36,:);
+fila_QJJPP=Matriz(37,:);
+fila_zLL=Matriz(38,:);
+fila_g=Matriz(39,:);
+fila_dSS=Matriz(40,:);
+fila_MM=Matriz(41,:);

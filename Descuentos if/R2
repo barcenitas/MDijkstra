@@ -1,0 +1,138 @@
+function origeninterseccionL2=TiempoIntervaloLinea2('cadena')/*ingreso el punto origen y me devuelve el tiempo hasta
+una intersección*/
+
+String origen=cadena;
+
+
+ruta2={'1. CUATRO CAMINOS','2. 
+PANTEONES','3. TACUBA','4. CUITLAHUAC','5.
+ POPOTLA','6. COLEGIO MILITAR','7. NORMAL','
+ 8. SAN COSME','9. REVOLUCIÓN','10. HIDALGO'
+ ,'11. BELLAS ARTES','12. ALLENDE','13. ZOCALO'
+ ,'14. PINO SUAREZ','15. SAN ANTONIO ABAD',
+ '16. CHABACANO','17. VIADUCTO','18. XOLA',
+ '19. VILLA DE CORTES','20. NATIVITAS',
+ '21. PORTALES','22. ERMITA','23. GENERAL ANAYA',
+ '24. TASQUEÑA'};
+
+/*TIEMPO DE: TAXQUEÑA->ERMITA*/
+if origen>=O && origen<PY
+	switch origen
+	case  'UNIVERSIDAD'
+	      Tiempo=15-(3*0);
+	case 'COPILCO'
+	      Tiempo=15-(3*1)
+	case 'MIGUEL ANGEL DE QUEVEDO'
+	      Tiempo=15-(3*2)
+	case 'VIVEROS/DERECHOS HUMANOS'
+	      Tiempo=15-(3*3);
+	case 'COYOACAN':
+	      Tiempo=15-(3*4);
+	/*case 'ZAPATA'
+	      Tiempo=15-(3*5);*/
+   otherwise
+          Tiempo=0;
+    end 
+    ////////////////////////
+    //SIGO EN LA MISMA INEA?
+
+/*ZAPATA->CENTRO MEDICO*/
+else if origen>=GZ && origen<Ht
+	switch origen
+	case  'ZAPATA'
+	      Tiempo=12-(3*0);
+	case 'DIVISION DEL NORTE'
+	      Tiempo=12-(3*1)
+	case 'EUGENIA'
+	      Tiempo=12-(3*2)
+	case 'VIVEROS/DERECHOS HUMANOS':
+	      Tiempo=12-(3*3);
+	case 'ETIOPIA/ PLAZA DE LA TRANSPARENCIA',
+	      Tiempo=12-(3*4);
+	/*case 'CENTRO MEDICO'
+	      Tiempo=12-(3*5);*/
+   otherwise
+          Tiempo=0;
+    end
+
+/*CENTRO MEDICO->BALDERAS*/
+else if origen>=Ht && origen<Io
+	switch origen
+	case  'CENTRO MEDICO'
+	      Tiempo=12-(3*0);
+	case 'HOSPITAL GENERAL'
+	      Tiempo=12-(3*1)
+	case 'EUGENIA'
+	      Tiempo=12-(3*2)
+	case 'NIÑOS HEROES',
+	      Tiempo=12-(3*3);
+	/*case 'BALDERAS'
+	      Tiempo=12-(3*4);*/
+   otherwise
+          Tiempo=0;
+    end
+ /*BALDERAS->Hidalgo*/
+
+else if origen>=Io && origen<JT
+	switch origen
+	case '9. BALDERAS'
+	      Tiempo=6-(3*0);
+	case '8. JUAREZ'
+	      Tiempo=6-(3*1);
+	/*case '7. HIDALGO'
+	      Tiempo=12-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ /*HIDALGO'->GUERRERO*/
+
+else if origen>=JT && origen<kRR
+	switch origen
+	case '7. HIDALGO'
+	      Tiempo=3-(3*0);
+	/*case '6. GUERRERO'
+	      Tiempo=3-(3*1);*/
+   otherwise
+          Tiempo=0;
+    end
+ /*GUERRERO->LA RAZA*/
+else if origen>=kRR && origen<LDD
+	switch origen
+	case '6. GUERRERO'
+	      Tiempo=6-(3*0);
+
+	case '5. TLATELOLCO'
+	      Tiempo=6-(3*1);
+
+	/*case '4. LA RAZA'
+	      Tiempo=6-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+ /*LA RAZA->DEPORTIVO 18 DE MARZO*/
+else if origen>=kRR && origen<LDD
+	switch origen
+	case '4. LA RAZA'
+	      Tiempo=6-(3*0);
+
+	case '3. POTRERO'
+	      Tiempo=6-(3*1);
+
+	/*case '2. DEPORTIVO 18 DE MARZO'
+	      Tiempo=6-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+ /*DEPORTIVO 18 DE MARZO->INDIOS VERDES*/
+
+else if origen>=LDD && origen<LDD
+	switch origen
+	case '2. DEPORTIVO 18 DE MARZO'
+	      Tiempo=6-(3*0);
+	/*case '1. INDIOS VERDES'
+	      Tiempo=6-(3*1);*/
+   otherwise
+          Tiempo=0;
+    end
+end
