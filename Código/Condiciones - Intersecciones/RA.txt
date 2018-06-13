@@ -1,0 +1,32 @@
+function origeninterseccionLA=TiempoIntervaloLineaA('cadena')/*ingreso el punto origen y me devuelve el tiempo hasta
+una intersección*/
+
+String origen=cadena;
+
+/*TIEMPO DE: LA PAZ->PANTITLAN*/
+if origen>=h && origen<ijqAA
+	switch origen
+	case '10. LA PAZ'
+	      Tiempo=15-(3*0);
+	case '9. LOS REYES'
+	      Tiempo=15-(3*1)
+  	case '8. SANTA MARTA'
+	      Tiempo=15-(3*2)
+  	case '7. ACATITLA'
+	      Tiempo=15-(3*3)
+  	case '6. PEÑON VIEJO'
+	      Tiempo=15-(3*4)
+  	case '5. GUELATAO'
+	      Tiempo=15-(3*5)
+  	case '4. TEPALCATES'
+	      Tiempo=15-(3*6)
+  	case '3. CANAL DE SAN JUAN'
+	      Tiempo=15-(3*7)
+  	case '2. AGRICOLA ORIENTAL'
+	      Tiempo=15-(3*8)
+	/*case '1. PANTITLAN'
+	      Tiempo=15-(3*9);*/
+   otherwise
+          Tiempo=0;
+    end
+end

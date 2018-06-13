@@ -1,0 +1,65 @@
+function origeninterseccionL9=TiempoIntervaloLinea9('cadena')/*ingreso el punto origen y me devuelve el tiempo hasta
+una intersección*/
+
+String origen=cadena;
+
+/*TIEMPO DE: PANTITLAN->JAMAICA*/
+if origen>=ijqAA && origen<VrHH
+	switch origen
+	case  '12. PANTITLAN'
+	      Tiempo=15-(3*0);
+	case '11. PUEBLA'
+	      Tiempo=15-(3*1)
+  	case '10. CIUDAD DEPORTIVA'
+	      Tiempo=15-(3*2)
+  	case '9. VELODROMO'
+	      Tiempo=15-(3*3)
+  	case '8. MIXIUHCA'
+	      Tiempo=15-(3*4)
+	/*case '7. JAMAICA'
+	      Tiempo=15-(3*5);*/
+   otherwise
+          Tiempo=0;
+    end
+
+    /*JAMAICA->CHABACANO*/
+else if origen>=VrHH && origen<Qds
+	switch origen
+	case  '7. JAMAICA'
+	      Tiempo=12-(3*0);
+	case '6. CHABACANO'
+	      Tiempo=12-(3*1)
+	/*case '6. CHABACANO'
+	      Tiempo=12-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+    /*CHABACANO->CENTRO MEDICO*/
+else if origen>=Qds && origen<Ht
+	switch origen
+	case  '6. CHABACANO'
+	      Tiempo=12-(3*0);
+	case '5. LAZARO CARDENAS'
+	      Tiempo=12-(3*1)
+	/*case '4. CENTRO MEDICO'
+	      Tiempo=12-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+    /*CENTRO MEDICO->TACUBAYA*/
+else if origen>=Ht && origen<Cpu
+	switch origen
+	case '4. CENTRO MEDICO'
+	      Tiempo=12-(3*0);
+	case '3. CHILPANCINGO'
+	      Tiempo=12-(3*1)
+	case '2. PATRIOTISMO'
+	      Tiempo=12-(3*2)
+	/*case '1. TACUBAYA'
+	      Tiempo=12-(3*3);*/
+   otherwise
+          Tiempo=0;
+    end
+end

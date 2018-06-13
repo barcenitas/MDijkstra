@@ -1,0 +1,69 @@
+function origeninterseccionL7=TiempoIntervaloLinea7('cadena')/*ingreso el punto origen y me devuelve el tiempo hasta
+una intersección*/
+
+String origen=cadena;
+
+/*TIEMPO DE: BARRANCA DEL MUERTO->MIXCOAC*/
+if origen>=A && origen<Ba
+	switch origen
+	case  '14. BARRANCA DEL MUERTO'
+	      Tiempo=15-(3*0);
+	case '13. MIXCOAC'
+	      Tiempo=15-(3*1)
+	/*case '13. MIXCOAC'
+	      Tiempo=15-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+    /*MIXCOAC->TACUBAYA*/
+else if origen>=Ba && origen<Cpu
+	switch origen
+	case  '13. MIXCOAC'
+	      Tiempo=12-(3*0);
+	case '12. SAN ANTONIO'
+	      Tiempo=12-(3*1)
+	case '11. SAN PEDRO DE LOS PINOS'
+	      Tiempo=12-(3*2)
+	/*case '10. TACUBAYA'
+	      Tiempo=12-(3*3);*/
+   otherwise
+          Tiempo=0;
+    end
+
+        /*TACUBAYA->TACUBA*/
+else if origen>=Cpu && origen<DU
+	switch origen
+	case  '10. TACUBAYA'
+	      Tiempo=12-(3*0);
+	case '9. CONSTITUYENTES'
+	      Tiempo=12-(3*1)
+	case '8. AUDITORIO'
+	      Tiempo=12-(3*2)
+    case  '7. POLANCO'
+	      Tiempo=12-(3*3);
+	case '6. SAN JOAQUIN'
+	      Tiempo=12-(3*4)
+	/*case '5. TACUBA'
+	      Tiempo=12-(3*5);*/
+   otherwise
+          Tiempo=0;
+    end
+
+        /*TACUBA->EL ROSARIO*/
+else if origen>=DU && origen<Ev
+	switch origen
+	case  '5. TACUBA'
+	      Tiempo=12-(3*0);
+	case '4. REFINERIA'
+	      Tiempo=12-(3*1)
+	case '3. CAMARONES'
+	      Tiempo=12-(3*2)
+    case  '2. AQUILES SERDÁN'
+	      Tiempo=12-(3*3);
+	/*case '1. EL ROSARIO'
+	      Tiempo=12-(3*4);*/
+   otherwise
+          Tiempo=0;
+    end
+end

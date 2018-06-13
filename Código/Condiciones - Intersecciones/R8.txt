@@ -1,0 +1,97 @@
+function origeninterseccionL8=TiempoIntervaloLinea8('cadena')/*ingreso el punto origen y me devuelve el tiempo hasta
+una intersección*/
+
+String origen=cadena;
+
+/*TIEMPO DE: CONSTITUCION DE 1917->ATLALILCO*/
+if origen>=a && origen<Xb
+	switch origen
+	case  '19. CONSTITUCION DE 1917'
+	      Tiempo=15-(3*0);
+	case '18. UAM-I'
+	      Tiempo=15-(3*1)
+	case '17. CERRO DE LA ESTRELLA'
+	      Tiempo=15-(3*2)
+	case '16. IZTAPALAPA'
+	      Tiempo=15-(3*3);
+	/*case '15. ATLALILCO'
+	      Tiempo=15-(3*4);*/
+   otherwise
+          Tiempo=0;
+    end 
+
+/*ATLALILCO->SANTA ANITA*/
+else if origen>=Xb && origen<cGG
+	switch origen
+	case  '15. ATLALILCO'
+	      Tiempo=12-(3*0);
+	case '14. ESCUADRON 201'
+	      Tiempo=12-(3*1)
+	case '13. ACULCO'
+	      Tiempo=12-(3*2)
+	case '12. APATLACO':
+	      Tiempo=12-(3*3);
+	case '11. IZTACALCO',
+	      Tiempo=12-(3*4);
+  	case '10. COYUYA',
+	      Tiempo=12-(3*5);
+	/*case '9. SANTA ANITA'
+	      Tiempo=12-(3*6);*/
+   otherwise
+          Tiempo=0;
+    end
+
+/*SANTA ANITA->CHABACANO*/
+else if origen>=cGG && origen<Qds
+	switch origen
+	case  '9. SANTA ANITA'
+	      Tiempo=12-(3*0);
+	case '8. LA VIGA'
+	      Tiempo=12-(3*1)
+	/*case '7. CHABACANO'
+	      Tiempo=12-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*CHABACANO->SALTO DEL AGUA*/
+else if origen>=Qds && origen<en
+	switch origen
+	case '7. CHABACANO'
+	      Tiempo=6-(3*0);
+	case '6. OBRERA'
+	      Tiempo=6-(3*1);
+	case '5. DOCTORES'
+	      Tiempo=6-(3*2);
+	/*case '4. SALTO DEL AGUA'
+	      Tiempo=12-(3*3);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*SALTO DEL AGUA'->BELLAS ARTES*/
+else if origen>=en && origen<f
+	switch origen
+	case '4. SALTO DEL AGUA'
+	      Tiempo=3-(3*0);
+  	case '3. SAN JUAN DE LETRAN'
+	      Tiempo=3-(3*1);
+	/*case '2. BELLAS ARTES'
+	      Tiempo=3-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*BELLAS ARTES'->GARIBALDI/ LAGUNILLA*/
+else if origen>=f && origen<gQQ
+	switch origen
+	case '2. BELLAS ARTES'
+	      Tiempo=3-(3*0);
+  	case '1. GARIBALDI/ LAGUNILLA'
+	      Tiempo=3-(3*1);
+	/*case '1. GARIBALDI/ LAGUNILLA'
+	      Tiempo=3-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+end
