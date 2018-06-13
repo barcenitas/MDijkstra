@@ -1,0 +1,5 @@
+Cpu = '1. TACUBAYA'
+Ht = '4. CENTRO MEDICO'
+Qds = '6. CHABACANO'
+VrHH = '7. JAMAICA'
+ijqAA = '12. PANTITLAN'
