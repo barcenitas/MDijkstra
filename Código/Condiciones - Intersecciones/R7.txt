@@ -7,11 +7,11 @@ String origen=cadena;
 if origen>=A && origen<Ba
 	switch origen
 	case  '14. BARRANCA DEL MUERTO'
-	      Tiempo=15-(3*0);
+	      Tiempo=3-(3*0);
 	case '13. MIXCOAC'
-	      Tiempo=15-(3*1)
+	      Tiempo=3-(3*1)
 	/*case '13. MIXCOAC'
-	      Tiempo=15-(3*2);*/
+	      Tiempo=3-(3*2);*/
    otherwise
           Tiempo=0;
     end
@@ -35,17 +35,17 @@ else if origen>=Ba && origen<Cpu
 else if origen>=Cpu && origen<DU
 	switch origen
 	case  '10. TACUBAYA'
-	      Tiempo=12-(3*0);
+	      Tiempo=18-(3*0);
 	case '9. CONSTITUYENTES'
-	      Tiempo=12-(3*1)
+	      Tiempo=18-(3*1)
 	case '8. AUDITORIO'
-	      Tiempo=12-(3*2)
+	      Tiempo=18-(3*2)
     case  '7. POLANCO'
-	      Tiempo=12-(3*3);
+	      Tiempo=18-(3*3);
 	case '6. SAN JOAQUIN'
-	      Tiempo=12-(3*4)
+	      Tiempo=18-(3*4)
 	/*case '5. TACUBA'
-	      Tiempo=12-(3*5);*/
+	      Tiempo=18-(3*5);*/
    otherwise
           Tiempo=0;
     end

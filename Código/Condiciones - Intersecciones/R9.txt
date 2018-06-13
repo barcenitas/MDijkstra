@@ -26,11 +26,11 @@ if origen>=ijqAA && origen<VrHH
 else if origen>=VrHH && origen<Qds
 	switch origen
 	case  '7. JAMAICA'
-	      Tiempo=12-(3*0);
+	      Tiempo=3-(3*0);
 	case '6. CHABACANO'
-	      Tiempo=12-(3*1)
+	      Tiempo=3-(3*1)
 	/*case '6. CHABACANO'
-	      Tiempo=12-(3*2);*/
+	      Tiempo=3-(3*2);*/
    otherwise
           Tiempo=0;
     end
@@ -39,11 +39,11 @@ else if origen>=VrHH && origen<Qds
 else if origen>=Qds && origen<Ht
 	switch origen
 	case  '6. CHABACANO'
-	      Tiempo=12-(3*0);
+	      Tiempo=6-(3*0);
 	case '5. LAZARO CARDENAS'
-	      Tiempo=12-(3*1)
+	      Tiempo=6-(3*1)
 	/*case '4. CENTRO MEDICO'
-	      Tiempo=12-(3*2);*/
+	      Tiempo=6-(3*2);*/
    otherwise
           Tiempo=0;
     end
@@ -52,13 +52,13 @@ else if origen>=Qds && origen<Ht
 else if origen>=Ht && origen<Cpu
 	switch origen
 	case '4. CENTRO MEDICO'
-	      Tiempo=12-(3*0);
+	      Tiempo=18-(3*0);
 	case '3. CHILPANCINGO'
-	      Tiempo=12-(3*1)
+	      Tiempo=18-(3*1)
 	case '2. PATRIOTISMO'
-	      Tiempo=12-(3*2)
+	      Tiempo=18-(3*2)
 	/*case '1. TACUBAYA'
-	      Tiempo=12-(3*3);*/
+	      Tiempo=18-(3*3);*/
    otherwise
           Tiempo=0;
     end

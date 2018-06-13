@@ -7,11 +7,11 @@ String origen=cadena;
 if origen>=dSS && origen<kRR
 	switch origen
 	case  '21. BUENAVISTA'
-	      Tiempo=15-(3*0);
+	      Tiempo=3-(3*0);
 	case '20. GUERRERO'
-	      Tiempo=15-(3*1)
+	      Tiempo=3-(3*1)
 	/*case '20. GUERRERO'
-	      Tiempo=15-(3*2);*/
+	      Tiempo=3-(3*2);*/
    otherwise
           Tiempo=0;
     end 
@@ -20,11 +20,11 @@ if origen>=dSS && origen<kRR
 else if origen>=kRR && origen<gQQ
 	switch origen
 	case  '20. GUERRERO'
-	      Tiempo=12-(3*0);
+	      Tiempo=3-(3*0);
 	case '19. GARIBALDI/ LAGUNILLA'
-	      Tiempo=12-(3*1)
+	      Tiempo=3-(3*1)
 	/*case '19. GARIBALDI/ LAGUNILLA'
-	      Tiempo=12-(3*2);*/
+	      Tiempo=3-(3*2);*/
    otherwise
           Tiempo=0;
     end
@@ -33,26 +33,26 @@ else if origen>=kRR && origen<gQQ
 else if origen>=gQQ && origen<QJJPP
 	switch origen
 	case  '19. GARIBALDI/ LAGUNILLA'
-	      Tiempo=12-(3*0);
+	      Tiempo=15-(3*0);
 	case '18. LAGUNILLA'
-	      Tiempo=12-(3*1)
+	      Tiempo=15-(3*1)
   	case '17. TEPITO'
-	      Tiempo=12-(3*2)
+	      Tiempo=15-(3*2)
 	/*case '16. MORELOS'
-	      Tiempo=12-(3*3);*/
+	      Tiempo=15-(3*3);*/
    otherwise
           Tiempo=0;
     end
 
- 	/*MORELOS->SALTO DEL AGUA*/
+ 	/*MORELOS->SAN LAZARO*/
 else if origen>=QJJPP && origen<kOO
 	switch origen
 	case '7. MORELOS'
-	      Tiempo=6-(3*0);
+	      Tiempo=3-(3*0);
 	case '15. SAN LAZARO'
-	      Tiempo=6-(3*1);
+	      Tiempo=3-(3*1);
 	/*case '15. SAN LAZARO'
-	      Tiempo=12-(3*2);*/
+	      Tiempo=3-(3*2);*/
    otherwise
           Tiempo=0;
     end
@@ -61,13 +61,13 @@ else if origen>=QJJPP && origen<kOO
 else if origen>=kOO && origen<wBBNN
 	switch origen
 	case '15. SAN LAZARO'
-	      Tiempo=3-(3*0);
+	      Tiempo=15-(3*0);
   	case '14. RICARDO FLORES MAGON'
-	      Tiempo=3-(3*1);
+	      Tiempo=15-(3*1);
   	case '13. ROMERO RUBIO'
-	      Tiempo=3-(3*2);
+	      Tiempo=15-(3*2);
 	/*case '12. OCEANIA'
-	      Tiempo=3-(3*3);*/
+	      Tiempo=15-(3*3);*/
    otherwise
           Tiempo=0;
     end
@@ -78,27 +78,27 @@ else if origen>=wBBNN && origen<MM
 	case '12. OCEANIA'
 	      Tiempo=3-(3*0);
   	case '11. DEPORTIVO OCEANIA'
-	      Tiempo=3-(3*1);
+	      Tiempo=33-(3*1);
   	case '10. BOSQUE DE ARAGON'
-	      Tiempo=3-(3*2);
+	      Tiempo=33-(3*2);
   	case '9. VILLA DE ARAGON'
-	      Tiempo=3-(3*3);
+	      Tiempo=33-(3*3);
   	case '8. NEZAHUALCOYOTL'
-	      Tiempo=3-(3*4);
+	      Tiempo=33-(3*4);
   	case '7. IMPULSORA
-	      Tiempo=3-(3*5);
+	      Tiempo=33-(3*5);
   	case '6. RIO DE LOS REMEDIOS'
-	      Tiempo=3-(3*6);
+	      Tiempo=33-(3*6);
   	case '5. MUZQUIZ'
-	      Tiempo=3-(3*7);
+	      Tiempo=33-(3*7);
   	case '4. ECATEPEC'
-	      Tiempo=3-(3*8);
+	      Tiempo=33-(3*8);
   	case '3. OLIMPICA'
-	      Tiempo=3-(3*9);
+	      Tiempo=33-(3*9);
   	case '2. PLAZA ARAGON'
-	      Tiempo=3-(3*10);
+	      Tiempo=33-(3*10);
 	/*case '1. CIUDAD AZTECA'
-	      Tiempo=3-(3*11);*/
+	      Tiempo=33-(3*11);*/
    otherwise
           Tiempo=0;
     end
