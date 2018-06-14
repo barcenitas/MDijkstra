@@ -1,0 +1,112 @@
+function origeninterseccionL1=TiempoIntervaloLinea1('cadena')/*ingreso el punto origen y me devuelve el tiempo hasta
+una intersección*/
+
+String origen=cadena;
+
+	/*TIEMPO DE: PANTITLAN->SAN LAZARO*/
+if origen>=ijqAA && origen<kOO
+	switch origen
+	case  '20. PANTITLAN'
+	      Tiempo=6-(3*0);
+	case '19. ZARAGOZA'
+	      Tiempo=6-(3*1)
+  	case '18. GOMEZ FARIAS'
+	      Tiempo=6-(3*2)
+  	case '17. BOULEVARD PUERTO AEREO'
+	      Tiempo=6-(3*3)
+  	case '16. BALBUENA'
+	      Tiempo=6-(3*4)
+  	case '15. MOCTEZUMA'
+	      Tiempo=6-(3*5)
+	/*case '14. SAN LAZARO'
+	      Tiempo=6-(3*6);*/
+   otherwise
+          Tiempo=0;
+    end 
+
+	/*SAN LAZARO->CANDELARIA*/
+else if origen>=kOO && origen<lII
+	switch origen
+	case '14. SAN LAZARO'
+	      Tiempo=3-(3*0);
+	case '13. CANDELARIA'
+	      Tiempo=3-(3*1)
+	/*case '13. CANDELARIA'
+	      Tiempo=3-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+	/*CANDELARIA->PINO SUAREZ*/
+else if origen>=lII && origen<Rm
+	switch origen
+	case '13. CANDELARIA'
+	      Tiempo=6-(3*0);
+	case '12. MERCED'
+	      Tiempo=6-(3*1)
+	/*case '11. PINO SUAREZ'
+	      Tiempo=6-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*PINO SUAREZ->SALTO DEL AGUA*/
+else if origen>=Rm && origen<en
+	switch origen
+	case '11. PINO SUAREZ'
+	      Tiempo=6-(3*0);
+	case '10. ISABEL LA CATOLICA'
+	      Tiempo=6-(3*1);
+	/*case '9. SALTO DEL AGUA'
+	      Tiempo=6-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*SALTO DEL AGUA->BALDERAS*/
+else if origen>=en && origen<Io
+	switch origen
+	case '9. SALTO DEL AGUA'
+	      Tiempo=3-(3*0);
+	case '8. BALDERAS'
+	      Tiempo=3-(3*1);
+	/*case '8. BALDERAS'
+	      Tiempo=3-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*BALDERAS->TACUBAYA*/
+else if origen>=Io && origen<Cpu
+	switch origen
+	case '8. BALDERAS'
+	      Tiempo=18-(3*0);
+	case '7. CUAUHTEMOC'
+	      Tiempo=18-(3*1);
+  	case '6. INSURGENTES'
+	      Tiempo=18-(3*2);
+  	case '5. SEVILLA'
+	      Tiempo=18-(3*3);
+  	case '4. CHAPULTEPEC'
+	      Tiempo=18-(3*4);
+  	case '3. JUANACATLAN'
+	      Tiempo=18-(3*5);
+	/*case '2. TACUBAYA'
+	      Tiempo=18-(3*6);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*TACUBAYA->OBSERVATORIO*/
+else if origen>=Cpu && origen<g
+	switch origen
+	case '2. TACUBAYA'
+	      Tiempo=18-(3*0);
+	case '1. OBSERVATORIO'
+	      Tiempo=18-(3*1);
+	/*case '1. OBSERVATORIO'
+	      Tiempo=18-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+end

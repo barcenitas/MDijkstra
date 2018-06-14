@@ -1,0 +1,72 @@
+function origeninterseccionL4=TiempoIntervaloLinea4('cadena')/*ingreso el punto origen y me devuelve el tiempo hasta
+una intersección*/
+
+String origen=cadena;
+
+	/*TIEMPO DE: SANTA ANITA->JAMAICA*/
+if origen>=cGG && origen<VrHH
+	switch origen
+	case '10. SANTA ANITA'
+	      Tiempo=3-(3*0);
+	case '9. JAMAICA'
+	      Tiempo=3-(3*1)
+	/*case '9. JAMAICA'
+	      Tiempo=3-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end 
+
+	/*JAMAICA->CANDELARIA*/
+else if origen>=VrHH && origen<lII
+	switch origen
+	case '9. JAMAICA'
+	      Tiempo=6-(3*0);
+	case '7. CANDELARIA'
+	      Tiempo=6-(3*1)
+	/*case '7. CANDELARIA'
+	      Tiempo=6-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+	/*CANDELARIA->MORELOS*/
+else if origen>=lII && origen<QJJPP
+	switch origen
+	case '7. CANDELARIA'
+	      Tiempo=3-(3*0);
+	case '6. MORELOS'
+	      Tiempo=3-(3*1)
+	/*case '6. MORELOS'
+	      Tiempo=3-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*MORELOS->CONSULADO*/
+else if origen>=QJJPP && origen<CCKK
+	switch origen
+	case '6. MORELOS'
+	      Tiempo=6-(3*0);
+	case '5. CANAL DEL NORTE'
+	      Tiempo=6-(3*1);
+	/*case '4. CONSULADO'
+	      Tiempo=6-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*CONSULADO->MARTÍN CARRERA*/
+else if origen>=CCKK && origen<zLL
+	switch origen
+	case '4. CONSULADO'
+	      Tiempo=9-(3*0);
+	case '3. BONDOJITO'
+	      Tiempo=9-(3*1);
+  	case '2. TALISMAN'
+	      Tiempo=9-(3*2);
+	/*case '1. MARTÍN CARRERA'
+	      Tiempo=9-(3*3);*/
+   otherwise
+          Tiempo=0;
+    end
+end

@@ -1,0 +1,117 @@
+function origeninterseccionL3=TiempoIntervaloLinea3('cadena')/*ingreso el punto origen y me devuelve el tiempo hasta
+una intersección*/
+
+String origen=cadena;
+
+	/*TIEMPO DE: UNIVERSIDAD->ZAPATA*/
+if origen>=F && origen<GZ
+	switch origen
+	case  '21. UNIVERSIDAD'
+	      Tiempo=15-(3*0);
+	case '20. COPILCO'
+	      Tiempo=15-(3*1)
+	case '19. MIGUEL ANGEL DE QUEVEDO'
+	      Tiempo=15-(3*2)
+	case '18. VIVEROS/DERECHOS HUMANOS'
+	      Tiempo=15-(3*3);
+	case '17. COYOACAN':
+	      Tiempo=15-(3*4);
+	/*case '16. ZAPATA'
+	      Tiempo=15-(3*5);*/
+   otherwise
+          Tiempo=0;
+    end 
+
+	/*ZAPATA->CENTRO MEDICO*/
+else if origen>=GZ && origen<Ht
+	switch origen
+	case '16. ZAPATA'
+	      Tiempo=12-(3*0);
+	case '15. DIVISION DEL NORTE'
+	      Tiempo=12-(3*1)
+	case '14. EUGENIA'
+	      Tiempo=12-(3*2)
+	case '13. ETIOPIA/ PLAZA DE LA TRANSPARENCIA'
+	      Tiempo=12-(3*3);
+	/*case '12. CENTRO MEDICO'
+	      Tiempo=12-(3*4);*/
+   otherwise
+          Tiempo=0;
+    end
+
+	/*CENTRO MEDICO->BALDERAS*/
+else if origen>=Ht && origen<Io
+	switch origen
+	case '12. CENTRO MEDICO'
+	      Tiempo=9-(3*0);
+	case '11. HOSPITAL GENERAL'
+	      Tiempo=9-(3*1)
+	case '10. NIÑOS HEROES'
+	      Tiempo=9-(3*2);
+	/*case '9. BALDERAS'
+	      Tiempo=9-(3*3);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*BALDERAS->HIDALGO*/
+else if origen>=Io && origen<JT
+	switch origen
+	case '9. BALDERAS'
+	      Tiempo=6-(3*0);
+	case '8. JUAREZ'
+	      Tiempo=6-(3*1);
+	/*case '7. HIDALGO'
+	      Tiempo=12-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*HIDALGO'->GUERRERO*/
+else if origen>=JT && origen<kRR
+	switch origen
+	case '7. HIDALGO'
+	      Tiempo=3-(3*0);
+	/*case '6. GUERRERO'
+	      Tiempo=3-(3*1);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*GUERRERO->LA RAZA*/
+else if origen>=kRR && origen<LDD
+	switch origen
+	case '6. GUERRERO'
+	      Tiempo=6-(3*0);
+	case '5. TLATELOLCO'
+	      Tiempo=6-(3*1);
+	/*case '4. LA RAZA'
+	      Tiempo=6-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*LA RAZA->DEPORTIVO 18 DE MARZO*/
+else if origen>=LDD && origen<My
+	switch origen
+	case '4. LA RAZA'
+	      Tiempo=6-(3*0);
+	case '3. POTRERO'
+	      Tiempo=6-(3*1);
+	/*case '2. DEPORTIVO 18 DE MARZO'
+	      Tiempo=6-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*DEPORTIVO 18 DE MARZO->INDIOS VERDES*/
+else if origen>=My && origen<N
+	switch origen
+	case '2. DEPORTIVO 18 DE MARZO'
+	      Tiempo=3-(3*0);
+	/*case '1. INDIOS VERDES'
+	      Tiempo=3-(3*1);*/
+   otherwise
+          Tiempo=0;
+    end
+end

@@ -1,0 +1,116 @@
+function origeninterseccionL2=TiempoIntervaloLinea2('cadena')/*ingreso el punto origen y me devuelve el tiempo hasta
+una intersección*/
+
+String origen=cadena;
+
+	/*TIEMPO DE: TASQUEÑA->ERMITA*/
+if origen>=O && origen<PY
+	switch origen
+	case '24. TASQUEÑA'
+	      Tiempo=6-(3*0);
+  	case '23. GENERAL ANAYA'
+	      Tiempo=6-(3*1)
+	/*case '22. ERMITA'
+	      Tiempo=6-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end 
+
+	/*ERMITA->CHABACANO*/
+else if origen>=PY && origen<Qds
+	switch origen
+	case '22. ERMITA'
+	      Tiempo=18-(3*0);
+	case '21. PORTALES'
+	      Tiempo=18-(3*1)
+  	case '20. NATIVITAS'
+	      Tiempo=18-(3*2)
+  	case '19. VILLA DE CORTES'
+	      Tiempo=18-(3*3)
+  	case '18. XOLA'
+	      Tiempo=18-(3*4)
+  	case '17. VIADUCTO'
+	      Tiempo=18-(3*5)
+	/*case '16. CHABACANO'
+	      Tiempo=18-(3*6);*/
+   otherwise
+          Tiempo=0;
+    end
+
+	/*CHABACANO->PINO SUAREZ*/
+else if origen>=Qds && origen<Rm
+	switch origen
+	case '16. CHABACANO'
+	      Tiempo=6-(3*0);
+	case '15. SAN ANTONIO ABAD'
+	      Tiempo=6-(3*1)
+	/*case '14. PINO SUAREZ'
+	      Tiempo=6-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*PINO SUAREZ->BELLAS ARTES*/
+else if origen>=Rm && origen<f
+	switch origen
+	case '14. PINO SUAREZ'
+	      Tiempo=18-(3*0);
+	case '13. ZOCALO'
+	      Tiempo=18-(3*1);
+  	case '12. ALLENDE'
+	      Tiempo=18-(3*2);
+	/*case '11. BELLAS ARTES'
+	      Tiempo=18-(3*3);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*BELLAS ARTES->HIDALGO*/
+else if origen>=f && origen<JT
+	switch origen
+	case '11. BELLAS ARTES'
+	      Tiempo=3-(3*0);
+	case '10. HIDALGO'
+	      Tiempo=3-(3*1);
+	/*case '10. HIDALGO'
+	      Tiempo=3-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*HIDALGO->TACUBA*/
+else if origen>=JT && origen<DU
+	switch origen
+	case '10. HIDALGO'
+	      Tiempo=21-(3*0);
+  	case '9. REVOLUCIÓN'
+	      Tiempo=21-(3*1);
+  	case '8. SAN COSME'
+	      Tiempo=21-(3*2);
+  	case '7. NORMAL'
+	      Tiempo=21-(3*3);
+  	case '6. COLEGIO MILITAR'
+	      Tiempo=21-(3*4);
+  	case '5. POPOTLA'
+	      Tiempo=21-(3*5);
+  	case '4. CUITLAHUAC'
+	      Tiempo=21-(3*6);
+	/*case '3. TACUBA'
+	      Tiempo=21-(3*7);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*TACUBA->CUATRO CAMINOS*/
+else if origen>=DU && origen<V
+	switch origen
+	case '3. TACUBA'
+	      Tiempo=6-(3*0);
+	case '2. PANTEONES'
+	      Tiempo=6-(3*1);
+	/*case '1. CUATRO CAMINOS'
+	      Tiempo=6-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+end

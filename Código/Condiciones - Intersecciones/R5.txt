@@ -1,0 +1,76 @@
+function origeninterseccionL5=TiempoIntervaloLinea5('cadena')/*ingreso el punto origen y me devuelve el tiempo hasta
+una intersección*/
+
+String origen=cadena;
+
+	/*TIEMPO DE: POLITECNICO->INSTITUTO DEL PETROLEO*/
+if origen>=TFF && origen<xEE
+	switch origen
+	case '13. POLITECNICO'
+	      Tiempo=3-(3*0);
+	case '12. INSTITUTO DEL PETROLEO'
+	      Tiempo=3-(3*1)
+	/*case '12. INSTITUTO DEL PETROLEO'
+	      Tiempo=3-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end 
+
+	/*INSTITUTO DEL PETROLEO->LA RAZA*/
+else if origen>=xEE && origen<LDD
+	switch origen
+	case '12. INSTITUTO DEL PETROLEO'
+	      Tiempo=6-(3*0);
+	case '11. AUTOBUSES DEL NORTE'
+	      Tiempo=6-(3*1)
+	/*case '10. LA RAZA'
+	      Tiempo=6-(3*2);*/
+   otherwise
+          Tiempo=0;
+    end
+
+	/*LA RAZA->COSULADO*/
+else if origen>=LDD && origen<CCKK
+	switch origen
+	case '10. LA RAZA'
+	      Tiempo=9-(3*0);
+	case '9. MISTERIOS'
+	      Tiempo=9-(3*1)
+  	case '8. VALLE GOMEZ'
+	      Tiempo=9-(3*2)
+	/*case '7. COSULADO'
+	      Tiempo=9-(3*3);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*COSULADO->OCEANIA*/
+else if origen>=CCKK && origen<wBBNN
+	switch origen
+	case '7. COSULADO'
+	      Tiempo=9-(3*0);
+	case '6.  EDUARDO MOLINA'
+	      Tiempo=9-(3*1);
+  	case '5.  ARAGON'
+	      Tiempo=9-(3*2);
+	/*case '4. OCEANIA'
+	      Tiempo=9-(3*3);*/
+   otherwise
+          Tiempo=0;
+    end
+
+ 	/*OCEANIA->PANTITLAN*/
+else if origen>=wBBNN && origen<ijqAA
+	switch origen
+	case '4. OCEANIA'
+	      Tiempo=9-(3*0);
+	case '3. TERMINAL AEREA'
+	      Tiempo=9-(3*1);
+  	case '2. HANGARES'
+	      Tiempo=9-(3*2);
+	/*case '1. PANTITLAN'
+	      Tiempo=9-(3*3);*/
+   otherwise
+          Tiempo=0;
+    end
+end
