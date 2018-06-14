@@ -9,21 +9,21 @@ if origen>=h && origen<ijqAA
 	case '10. LA PAZ'
 	      Tiempo=27-(3*0);
 	case '9. LOS REYES'
-	      Tiempo=27-(3*1)
+	      Tiempo=27-(3*1);
   	case '8. SANTA MARTA'
-	      Tiempo=27-(3*2)
+	      Tiempo=27-(3*2);
   	case '7. ACATITLA'
-	      Tiempo=27-(3*3)
+	      Tiempo=27-(3*3);
   	case '6. PEÑON VIEJO'
-	      Tiempo=27-(3*4)
+	      Tiempo=27-(3*4);
   	case '5. GUELATAO'
-	      Tiempo=27-(3*5)
+	      Tiempo=27-(3*5);
   	case '4. TEPALCATES'
-	      Tiempo=27-(3*6)
+	      Tiempo=27-(3*6);
   	case '3. CANAL DE SAN JUAN'
-	      Tiempo=27-(3*7)
+	      Tiempo=27-(3*7);
   	case '2. AGRICOLA ORIENTAL'
-	      Tiempo=27-(3*8)
+	      Tiempo=27-(3*8);
 	/*case '1. PANTITLAN'
 	      Tiempo=27-(3*9);*/
    otherwise

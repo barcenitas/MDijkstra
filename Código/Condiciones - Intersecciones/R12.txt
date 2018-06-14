@@ -9,25 +9,25 @@ if origen>=W && origen<Xb
 	case  '20. TLAHUAC'
 	      Tiempo=33-(3*0);
 	case '19. TLALTENCO'
-	      Tiempo=33-(3*1)
+	      Tiempo=33-(3*1);
   	case '18. ZAPOTITLAN'
-	      Tiempo=33-(3*2)
+	      Tiempo=33-(3*2);
   	case '17. NOPALERA'
-	      Tiempo=33-(3*3)
+	      Tiempo=33-(3*3);
   	case '16. OLIVOS'
-	      Tiempo=33-(3*4)
+	      Tiempo=33-(3*4);
   	case '15. TEZONCO'
-	      Tiempo=33-(3*5)
+	      Tiempo=33-(3*5);
   	case '14. PERIFERICO ORIENTE'
-	      Tiempo=33-(3*6)
+	      Tiempo=33-(3*6);
   	case '13. CALLE 11'
-	      Tiempo=33-(3*7)
+	      Tiempo=33-(3*7);
   	case '12. LOMAS ESTRELLAS'
-	      Tiempo=33-(3*8)
+	      Tiempo=33-(3*8);
   	case '11. SAN ANDRES TOMATLAN'
-	      Tiempo=33-(3*9)
+	      Tiempo=33-(3*9);
   	case '10. CULHUACAN'
-	      Tiempo=33-(3*10)
+	      Tiempo=33-(3*10);
 	/*case '9. ATLALILCO'
 	      Tiempo=33-(3*11);*/
    otherwise
@@ -40,7 +40,7 @@ else if origen>=Xb && origen<PY
 	case '9. ATLALILCO'
 	      Tiempo=6-(3*0);
 	case '8. MEXICALTZINGO'
-	      Tiempo=6-(3*1)
+	      Tiempo=6-(3*1);
 	/*case '7. ERMITA'
 	      Tiempo=6-(3*2);*/
    otherwise
@@ -53,9 +53,9 @@ else if origen>=PY && origen<GZ
 	case  '7. ERMITA'
 	      Tiempo=9-(3*0);
 	case '6. EJE CENTRAL'
-	      Tiempo=9-(3*1)
+	      Tiempo=9-(3*1);
   	case '5. PARQUE DE LOS VENADOS'
-	      Tiempo=9-(3*2)
+	      Tiempo=9-(3*2);
 	/*case '4. ZAPATA'
 	      Tiempo=9-(3*3);*/
    otherwise

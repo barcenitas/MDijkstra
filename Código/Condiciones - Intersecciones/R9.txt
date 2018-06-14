@@ -9,13 +9,13 @@ if origen>=ijqAA && origen<VrHH
 	case  '12. PANTITLAN'
 	      Tiempo=15-(3*0);
 	case '11. PUEBLA'
-	      Tiempo=15-(3*1)
+	      Tiempo=15-(3*1);
   	case '10. CIUDAD DEPORTIVA'
-	      Tiempo=15-(3*2)
+	      Tiempo=15-(3*2);
   	case '9. VELODROMO'
-	      Tiempo=15-(3*3)
+	      Tiempo=15-(3*3);
   	case '8. MIXIUHCA'
-	      Tiempo=15-(3*4)
+	      Tiempo=15-(3*4);
 	/*case '7. JAMAICA'
 	      Tiempo=15-(3*5);*/
    otherwise
@@ -28,7 +28,7 @@ else if origen>=VrHH && origen<Qds
 	case  '7. JAMAICA'
 	      Tiempo=3-(3*0);
 	case '6. CHABACANO'
-	      Tiempo=3-(3*1)
+	      Tiempo=3-(3*1);
 	/*case '6. CHABACANO'
 	      Tiempo=3-(3*2);*/
    otherwise
@@ -41,7 +41,7 @@ else if origen>=Qds && origen<Ht
 	case  '6. CHABACANO'
 	      Tiempo=6-(3*0);
 	case '5. LAZARO CARDENAS'
-	      Tiempo=6-(3*1)
+	      Tiempo=6-(3*1);
 	/*case '4. CENTRO MEDICO'
 	      Tiempo=6-(3*2);*/
    otherwise
@@ -54,9 +54,9 @@ else if origen>=Ht && origen<Cpu
 	case '4. CENTRO MEDICO'
 	      Tiempo=18-(3*0);
 	case '3. CHILPANCINGO'
-	      Tiempo=18-(3*1)
+	      Tiempo=18-(3*1);
 	case '2. PATRIOTISMO'
-	      Tiempo=18-(3*2)
+	      Tiempo=18-(3*2);
 	/*case '1. TACUBAYA'
 	      Tiempo=18-(3*3);*/
    otherwise

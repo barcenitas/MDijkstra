@@ -9,9 +9,9 @@ if origen>=a && origen<Xb
 	case  '19. CONSTITUCION DE 1917'
 	      Tiempo=15-(3*0);
 	case '18. UAM-I'
-	      Tiempo=15-(3*1)
+	      Tiempo=15-(3*1);
 	case '17. CERRO DE LA ESTRELLA'
-	      Tiempo=15-(3*2)
+	      Tiempo=15-(3*2);
 	case '16. IZTAPALAPA'
 	      Tiempo=15-(3*3);
 	/*case '15. ATLALILCO'
@@ -23,17 +23,17 @@ if origen>=a && origen<Xb
 /*ATLALILCO->SANTA ANITA*/
 else if origen>=Xb && origen<cGG
 	switch origen
-	case  '15. ATLALILCO'
+	case '15. ATLALILCO'
 	      Tiempo=18-(3*0);
 	case '14. ESCUADRON 201'
-	      Tiempo=18-(3*1)
+	      Tiempo=18-(3*1);
 	case '13. ACULCO'
-	      Tiempo=18-(3*2)
-	case '12. APATLACO':
+	      Tiempo=18-(3*2);
+	case '12. APATLACO'
 	      Tiempo=18-(3*3);
-	case '11. IZTACALCO',
+	case '11. IZTACALCO'
 	      Tiempo=18-(3*4);
-  	case '10. COYUYA',
+  	case '10. COYUYA'
 	      Tiempo=18-(3*5);
 	/*case '9. SANTA ANITA'
 	      Tiempo=18-(3*6);*/
@@ -47,7 +47,7 @@ else if origen>=cGG && origen<Qds
 	case  '9. SANTA ANITA'
 	      Tiempo=6-(3*0);
 	case '8. LA VIGA'
-	      Tiempo=6-(3*1)
+	      Tiempo=6-(3*1);
 	/*case '7. CHABACANO'
 	      Tiempo=6-(3*2);*/
    otherwise

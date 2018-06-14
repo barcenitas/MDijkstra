@@ -9,7 +9,7 @@ if origen>=dSS && origen<kRR
 	case  '21. BUENAVISTA'
 	      Tiempo=3-(3*0);
 	case '20. GUERRERO'
-	      Tiempo=3-(3*1)
+	      Tiempo=3-(3*1);
 	/*case '20. GUERRERO'
 	      Tiempo=3-(3*2);*/
    otherwise
@@ -22,7 +22,7 @@ else if origen>=kRR && origen<gQQ
 	case  '20. GUERRERO'
 	      Tiempo=3-(3*0);
 	case '19. GARIBALDI/ LAGUNILLA'
-	      Tiempo=3-(3*1)
+	      Tiempo=3-(3*1);
 	/*case '19. GARIBALDI/ LAGUNILLA'
 	      Tiempo=3-(3*2);*/
    otherwise
@@ -35,9 +35,9 @@ else if origen>=gQQ && origen<QJJPP
 	case  '19. GARIBALDI/ LAGUNILLA'
 	      Tiempo=15-(3*0);
 	case '18. LAGUNILLA'
-	      Tiempo=15-(3*1)
+	      Tiempo=15-(3*1);
   	case '17. TEPITO'
-	      Tiempo=15-(3*2)
+	      Tiempo=15-(3*2);
 	/*case '16. MORELOS'
 	      Tiempo=15-(3*3);*/
    otherwise
@@ -85,7 +85,7 @@ else if origen>=wBBNN && origen<MM
 	      Tiempo=33-(3*3);
   	case '8. NEZAHUALCOYOTL'
 	      Tiempo=33-(3*4);
-  	case '7. IMPULSORA
+  	case '7. IMPULSORA'
 	      Tiempo=33-(3*5);
   	case '6. RIO DE LOS REMEDIOS'
 	      Tiempo=33-(3*6);

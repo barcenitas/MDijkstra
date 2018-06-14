@@ -9,7 +9,7 @@ if origen>=TFF && origen<xEE
 	case '13. POLITECNICO'
 	      Tiempo=3-(3*0);
 	case '12. INSTITUTO DEL PETROLEO'
-	      Tiempo=3-(3*1)
+	      Tiempo=3-(3*1);
 	/*case '12. INSTITUTO DEL PETROLEO'
 	      Tiempo=3-(3*2);*/
    otherwise
@@ -22,7 +22,7 @@ else if origen>=xEE && origen<LDD
 	case '12. INSTITUTO DEL PETROLEO'
 	      Tiempo=6-(3*0);
 	case '11. AUTOBUSES DEL NORTE'
-	      Tiempo=6-(3*1)
+	      Tiempo=6-(3*1);
 	/*case '10. LA RAZA'
 	      Tiempo=6-(3*2);*/
    otherwise
@@ -35,9 +35,9 @@ else if origen>=LDD && origen<CCKK
 	case '10. LA RAZA'
 	      Tiempo=9-(3*0);
 	case '9. MISTERIOS'
-	      Tiempo=9-(3*1)
+	      Tiempo=9-(3*1);
   	case '8. VALLE GOMEZ'
-	      Tiempo=9-(3*2)
+	      Tiempo=9-(3*2);
 	/*case '7. COSULADO'
 	      Tiempo=9-(3*3);*/
    otherwise

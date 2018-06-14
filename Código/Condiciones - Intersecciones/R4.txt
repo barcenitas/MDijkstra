@@ -9,7 +9,7 @@ if origen>=cGG && origen<VrHH
 	case '10. SANTA ANITA'
 	      Tiempo=3-(3*0);
 	case '9. JAMAICA'
-	      Tiempo=3-(3*1)
+	      Tiempo=3-(3*1);
 	/*case '9. JAMAICA'
 	      Tiempo=3-(3*2);*/
    otherwise
@@ -22,7 +22,7 @@ else if origen>=VrHH && origen<lII
 	case '9. JAMAICA'
 	      Tiempo=6-(3*0);
 	case '7. CANDELARIA'
-	      Tiempo=6-(3*1)
+	      Tiempo=6-(3*1);
 	/*case '7. CANDELARIA'
 	      Tiempo=6-(3*2);*/
    otherwise
@@ -35,7 +35,7 @@ else if origen>=lII && origen<QJJPP
 	case '7. CANDELARIA'
 	      Tiempo=3-(3*0);
 	case '6. MORELOS'
-	      Tiempo=3-(3*1)
+	      Tiempo=3-(3*1);
 	/*case '6. MORELOS'
 	      Tiempo=3-(3*2);*/
    otherwise

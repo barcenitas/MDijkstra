@@ -9,15 +9,15 @@ if origen>=ijqAA && origen<kOO
 	case  '20. PANTITLAN'
 	      Tiempo=6-(3*0);
 	case '19. ZARAGOZA'
-	      Tiempo=6-(3*1)
+	      Tiempo=6-(3*1);
   	case '18. GOMEZ FARIAS'
-	      Tiempo=6-(3*2)
+	      Tiempo=6-(3*2);
   	case '17. BOULEVARD PUERTO AEREO'
-	      Tiempo=6-(3*3)
+	      Tiempo=6-(3*3);
   	case '16. BALBUENA'
-	      Tiempo=6-(3*4)
+	      Tiempo=6-(3*4);
   	case '15. MOCTEZUMA'
-	      Tiempo=6-(3*5)
+	      Tiempo=6-(3*5);
 	/*case '14. SAN LAZARO'
 	      Tiempo=6-(3*6);*/
    otherwise
@@ -30,7 +30,7 @@ else if origen>=kOO && origen<lII
 	case '14. SAN LAZARO'
 	      Tiempo=3-(3*0);
 	case '13. CANDELARIA'
-	      Tiempo=3-(3*1)
+	      Tiempo=3-(3*1);
 	/*case '13. CANDELARIA'
 	      Tiempo=3-(3*2);*/
    otherwise
@@ -43,7 +43,7 @@ else if origen>=lII && origen<Rm
 	case '13. CANDELARIA'
 	      Tiempo=6-(3*0);
 	case '12. MERCED'
-	      Tiempo=6-(3*1)
+	      Tiempo=6-(3*1);
 	/*case '11. PINO SUAREZ'
 	      Tiempo=6-(3*2);*/
    otherwise

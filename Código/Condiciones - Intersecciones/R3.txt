@@ -9,12 +9,12 @@ if origen>=F && origen<GZ
 	case  '21. UNIVERSIDAD'
 	      Tiempo=15-(3*0);
 	case '20. COPILCO'
-	      Tiempo=15-(3*1)
+	      Tiempo=15-(3*1);
 	case '19. MIGUEL ANGEL DE QUEVEDO'
-	      Tiempo=15-(3*2)
+	      Tiempo=15-(3*2);
 	case '18. VIVEROS/DERECHOS HUMANOS'
 	      Tiempo=15-(3*3);
-	case '17. COYOACAN':
+	case '17. COYOACAN'
 	      Tiempo=15-(3*4);
 	/*case '16. ZAPATA'
 	      Tiempo=15-(3*5);*/

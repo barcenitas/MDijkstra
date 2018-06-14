@@ -1,4 +1,4 @@
-function origeninterseccionL6=TiempoIntervaloLinea6('cadena')/*ingreso el punto origen y me devuelve el tiempo hasta
+;function origeninterseccionL6=TiempoIntervaloLinea6('cadena')/*ingreso el punto origen y me devuelve el tiempo hasta
 una intersección*/
 
 String origen=cadena;
@@ -9,7 +9,7 @@ if origen>=zLL && origen<My
 	case '11. MARTIN CARRERA'
 	      Tiempo=6-(3*0);
 	case '10.  LA VILLA/ BASILICA'
-	      Tiempo=6-(3*1)
+	      Tiempo=6-(3*1);
 	/*case '9. DEPORTIVO 18 DE MARZO'
 	      Tiempo=6-(3*2);*/
    otherwise
@@ -22,7 +22,7 @@ else if origen>=My && origen<xEE
 	case '9. DEPORTIVO 18 DE MARZO'
 	      Tiempo=6-(3*0);
 	case '8. LINDAVISTA'
-	      Tiempo=6-(3*1)
+	      Tiempo=6-(3*1);
 	/*case '7. INSTITUTO DEL PETROLEO'
 	      Tiempo=6-(3*2);*/
    otherwise
@@ -35,15 +35,15 @@ else if origen>=xEE && origen<Ev
 	case '7. INSTITUTO DEL PETROLEO'
 	      Tiempo=9-(3*0);
 	case '6. VALLEJO'
-	      Tiempo=9-(3*1)
+	      Tiempo=9-(3*1);
   	case '5. NORTE 45'
-	      Tiempo=9-(3*2)
+	      Tiempo=9-(3*2);
   	case '4. FERRERIA/ ARENA CIUDAD DE MEXICO'
-	      Tiempo=9-(3*3)
+	      Tiempo=9-(3*3);
   	case '3. AZCAPOTZALCO'
-	      Tiempo=9-(3*4)
+	      Tiempo=9-(3*4);
   	case '2. TEZOZOMOC'
-	      Tiempo=9-(3*5)
+	      Tiempo=9-(3*5);
 	/*case '1. EL ROSARIO'
 	      Tiempo=9-(3*6);*/
    otherwise

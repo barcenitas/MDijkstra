@@ -9,7 +9,7 @@ if origen>=O && origen<PY
 	case '24. TASQUEÑA'
 	      Tiempo=6-(3*0);
   	case '23. GENERAL ANAYA'
-	      Tiempo=6-(3*1)
+	      Tiempo=6-(3*1);
 	/*case '22. ERMITA'
 	      Tiempo=6-(3*2);*/
    otherwise
@@ -22,15 +22,15 @@ else if origen>=PY && origen<Qds
 	case '22. ERMITA'
 	      Tiempo=18-(3*0);
 	case '21. PORTALES'
-	      Tiempo=18-(3*1)
+	      Tiempo=18-(3*1);
   	case '20. NATIVITAS'
-	      Tiempo=18-(3*2)
+	      Tiempo=18-(3*2);
   	case '19. VILLA DE CORTES'
-	      Tiempo=18-(3*3)
+	      Tiempo=18-(3*3);
   	case '18. XOLA'
-	      Tiempo=18-(3*4)
+	      Tiempo=18-(3*4);
   	case '17. VIADUCTO'
-	      Tiempo=18-(3*5)
+	      Tiempo=18-(3*5);
 	/*case '16. CHABACANO'
 	      Tiempo=18-(3*6);*/
    otherwise
@@ -43,7 +43,7 @@ else if origen>=Qds && origen<Rm
 	case '16. CHABACANO'
 	      Tiempo=6-(3*0);
 	case '15. SAN ANTONIO ABAD'
-	      Tiempo=6-(3*1)
+	      Tiempo=6-(3*1);
 	/*case '14. PINO SUAREZ'
 	      Tiempo=6-(3*2);*/
    otherwise
